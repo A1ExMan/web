@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Background Image Move On Scroll</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- Planet horizon scroll -->
+	<section> 
+	</section>
+	<!-- End horizon scroll -->
+
+	<!-- Animation Text -->
+	<ul>
+		<li>A</li>
+		<li>n</li>
+		<li>i</li>
+		<li>m</li>
+		<li>a</li>
+		<li>t</li>
+		<li>i</li>
+		<li>o</li>
+		<li>n</li>
+	</ul>
+	<!-- End of the Animation Text -->
+	
+	<!-- 3D Hover effect my phone -->
+	<div class="container">
+		<img src="background1.PNG">
+		<img src="background1.PNG">
+		<img src="background1.PNG">
+		<img src="background1.PNG">
+	</div>
+	<!-- End of the 3D hover effect -->
+	
+	<!-- Pure CSS Card Effects With Toggle Button -->
+
+	<!-- The end of Pure CSS Card Effects With Toggle Button -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous">
+	</script>
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			var scroll_position = $(window).scrollTop()/2;
+			$('section').css({
+				'background-position-x' : - scroll_position + 'px',
+			})
+		})
+	</script>
+</body>
+</html>

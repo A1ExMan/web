@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animated Sticky Menu Bar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if($(window).scrollTop()) {
+				$('nav').addClass('black');
+			}
+			else {
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<img src="logo.png" alt="LogoSite">
+		</div>
+		<ul>
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Team</a></li>
+			<li><a href="#">Contact</a></li>
+
+		</ul>
+	</nav>
+	<section class="sec1"></section>
+	<section class="content">
+		<h1>Lorem ipsum dolor sit amet.</h1>
+		<!-- <img src="bg5.jpg" alt=""> -->
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi hic magni, sed, soluta aut ullam! Sint deleniti repudiandae culpa voluptate ipsum corrupti ratione vero, architecto quasi delectus, distinctio reprehenderit, neque, molestias est impedit cum nihil sunt amet perspiciatis tempora sed rem tempore. Delectus porro iste, debitis labore at adipisci magni recusandae, dicta minus consequuntur impedit!
+		<br><br>
+		Porro rem sit eum culpa dignissimos. Porro ducimus esse numquam, quia, voluptates recusandae accusantium ipsum temporibus ullam ad labore dolorem est quae perspiciatis delectus laboriosam nulla. Quae vitae, ex labore eveniet vero illum modi reiciendis veniam! Quae vel veritatis eaque libero, distinctio ut blanditiis!</p>
+	</section>
+	<section class="sec2"></section>
+		<section class="content">
+		<h1>Lorem ipsum dolor sit amet.</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi hic magni, sed, soluta aut ullam! Sint deleniti repudiandae culpa voluptate ipsum corrupti ratione vero, architecto quasi delectus, distinctio reprehenderit, neque, molestias est impedit cum nihil sunt amet perspiciatis tempora sed rem tempore. Delectus porro iste, debitis labore at adipisci magni recusandae, dicta minus consequuntur impedit!
+		<br><br> 
+		Porro rem sit eum culpa dignissimos. Porro ducimus esse numquam, quia, voluptates recusandae accusantium ipsum temporibus ullam ad labore dolorem est quae perspiciatis delectus laboriosam nulla. Quae vitae, ex labore eveniet vero illum modi reiciendis veniam! Quae vel veritatis eaque libero, distinctio ut blanditiis!</p>
+	</section>
+	<section class="sec3"></section>
+<!-- 	<section class="sec4"></section>
+	<section class="sec5"></section> -->
+</body>
+</html>
